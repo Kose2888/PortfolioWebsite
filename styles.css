@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 22px;
+
+    /* Removes Borders from page  */
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: rgb(104, 29, 29);
+    padding: 10px 20px 10px 20px;
+}
+section.feature-box {
+    background:lightslategray;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.feature-box div {
+    margin: auto;
+    padding: 10%;
+}
+section.feature-box.upper div {
+    background: black;
+}
+section.feature-box.lower div {
+    background: rgb(56, 56, 173);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display:inline-block;
+    margin: 0px 20px 0px 0px;
+    font-size: 18px;
+}
+footer {
+    background: rgb(104, 29, 29);
+    padding: 10px;
+}
+li:hover {
+    background-color: gray;
+}
