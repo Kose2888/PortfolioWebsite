@@ -9,7 +9,10 @@ body {
 }
 header {
     background: rgb(104, 29, 29);
-    padding: 10px 20px 10px 20px;
+    padding: 5px 20px 5px 20px;
+}
+h1 {
+    font-size:150%;
 }
 section.feature-box {
     background:lightslategray;
@@ -21,13 +24,22 @@ section.feature-box {
 }
 .feature-box div {
     margin: auto;
-    padding: 10%;
+    padding: 10px;
+}
+.picture {
+  height: 250px;
+  width: 250px;
+  background-image: url("pictures/profilePicture.png");
+  border-radius: 50%;
 }
 section.feature-box.upper div {
-    background: black;
+    margin-left: 3%;
 }
 section.feature-box.lower div {
-    background: rgb(56, 56, 173);
+    background:rgb(104, 29, 29);
+    margin-left: 5%;
+    margin-top: -80px;
+    border-radius: 25px;
 }
 ul{
     margin: 0;
@@ -45,4 +57,8 @@ footer {
 }
 li:hover {
     background-color: gray;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
