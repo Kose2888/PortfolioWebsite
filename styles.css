@@ -15,9 +15,9 @@ h1 {
     font-size:150%;
 }
 section.feature-box {
-    background:lightslategray;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-image: url("pictures/background.jpg");
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -26,19 +26,32 @@ section.feature-box {
     margin: auto;
     padding: 10px;
 }
+p.intro {
+    line-height: 0.1;
+    font-size: 30px;
+    white-space: nowrap;
+}
+p.name {
+    line-height: 0.1;
+    font-size: 60px;
+    white-space: nowrap;
+}
 .picture {
-  height: 250px;
-  width: 250px;
-  background-image: url("pictures/profilePicture.png");
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
+  margin-top: 10%;
+  margin-right: 20%;
 }
 section.feature-box.upper div {
-    margin-left: 3%;
+    margin-top: 10%;
+    margin-left: 6%;
 }
 section.feature-box.lower div {
     background:rgb(104, 29, 29);
-    margin-left: 5%;
-    margin-top: -80px;
+    margin-left: 12%;
+    margin-top: -150px;
+    margin-bottom: 365px;
     border-radius: 25px;
 }
 ul{
