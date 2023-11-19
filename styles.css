@@ -29,6 +29,16 @@ section.feature-box {
     display: flex;
     flex-direction: row;
 }
+section.Projects-box {
+    background-image: url("pictures/background.jpg");
+    padding: 30px;
+}
+
+.line {
+    background: rgb(104, 29, 29);
+    padding: 2px;
+    margin-top: -20px;
+}
 
 .feature-box div {
     margin: auto;
@@ -72,13 +82,13 @@ section.feature-box.upper div {
     margin-left: 6%;
 }
 
-section.feature-box.lower div {
+/* section.feature-box.lower div {
     background:rgb(104, 29, 29);
     margin-left: 12%;
     margin-top: -150px;
     margin-bottom: 365px;
     border-radius: 25px;
-}
+} */
 section.feature-box div.buttons {
     position: absolute;
     bottom: 120px;
